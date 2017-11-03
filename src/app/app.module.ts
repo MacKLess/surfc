@@ -8,8 +8,9 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { masterFirebaseConfig } from './api-keys';
 import { routing } from './app.routing';
 import { AppComponent } from './app.component';
-import { AboutComponent } from './about.component';
-import { TeamListComponent } from './team-list.component';
+import { AboutComponent } from './about/about.component';
+import { TeamListComponent } from './team-list/team-list.component';
+import { NewTeamMemberComponent } from './new-team-member/new-team-member.component';
 
 
 export const firebaseConfig = {
@@ -23,7 +24,8 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     TeamListComponent,
-    AboutComponent
+    AboutComponent,
+    NewTeamMemberComponent
   ],
   imports: [
     BrowserModule,

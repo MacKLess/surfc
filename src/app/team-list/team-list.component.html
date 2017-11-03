@@ -1,8 +1,8 @@
 <h2>Team Roster</h2>
 
-<div *ngFor="let team-member of team-members | async" class="panel panel-default">
+<div *ngFor="let member of members | async" class="panel panel-default">
   <div class="panel-body">
-    <h3><em>{{team-member.name}}</em></h3>
-    <p>{{team-member.position}}</p>
+    <h3><em>{{member.name}}</em></h3>
+    <p>{{member.position}}</p>
   </div>
 </div>

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FirebaseListObservable } from 'angularfire2/database';
 import { Router } from '@angular/router';
 
-import { TeamMember } from '../team-member.model';
+import { Member } from '../member.model';
 import { TeamService } from '../team.service';
 
 @Component({
@@ -12,7 +12,7 @@ import { TeamService } from '../team.service';
   providers: [TeamService]
 })
 export class TeamListComponent implements OnInit {
-  team-members: FirebaseListObservable<and[]>;
+  members: FirebaseListObservable<any[]>;
 
   constructor(
     private teamService: TeamService,
@@ -20,7 +20,7 @@ export class TeamListComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.team-members = this.teamService.getTeamMembers();
+    this.members = this.teamService.getMembers();
   }
 
 }
