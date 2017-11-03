@@ -1,0 +1,151 @@
+{
+  "team-members": [
+    {
+      "name": "Annette",
+      "positionType": "Forward",
+      "position": "Prop",
+      "alternatePosition": "Lock",
+      "seniority": "Junior"
+    },
+    {
+      "name": "Celina",
+      "positionType": "Forward",
+      "position": "Lock",
+      "alternatePosition": "8man",
+      "seniority": "Junior"
+    },
+    {
+      "name": "Chelsea",
+      "positionType": "Forward",
+      "position": "Prop",
+      "alternatePosition": "",
+      "seniority": "Sophmore"
+    },
+    {
+      "name": "Dana",
+      "positionType": "Forward",
+      "position": "Hooker",
+      "alternatePosition": "Flanker",
+      "seniority": "Sophmore"
+    },
+    {
+      "name": "Bro",
+      "positionType": "Forward",
+      "position": "Prop",
+      "alternatePosition": "Lock",
+      "seniority": "Senior"
+    },
+    {
+      "name": "Jazz",
+      "positionType": "Forward",
+      "position": "Scrum Half",
+      "alternatePosition": "Hooker",
+      "seniority": "Senior"
+    },
+    {
+      "name": "Horner",
+      "positionType": "Forward",
+      "position": "Lock",
+      "alternatePosition": "8man",
+      "seniority": "Senior"
+    },
+    {
+      "name": "Carter",
+      "positionType": "Forward",
+      "position": "Prop",
+      "alternatePosition": "Hooker",
+      "seniority": "Junior"
+    },
+    {
+      "name": "Kimbo",
+      "positionType": "Forward",
+      "position": "Prop",
+      "alternatePosition": "",
+      "seniority": "Freshman"
+    },
+    {
+      "name": "Margaret",
+      "positionType": "Forward",
+      "position": "8man",
+      "alternatePosition": "Lock",
+      "seniority": "Senior"
+    },
+    {
+      "name": "Sarah",
+      "positionType": "Forward",
+      "position": "Prop",
+      "alternatePosition": "Lock",
+      "seniority": "Sophmore"
+    },
+    {
+      "name": "Taylor",
+      "positionType": "Forward",
+      "position": "Lock",
+      "alternatePosition": "Flank",
+      "seniority": "Freshman"
+    },
+    {
+      "name": "AJ",
+      "positionType": "Back",
+      "position": "Wing",
+      "alternatePosition": "Inside Center",
+      "seniority": "Junior"
+    },
+    {
+      "name": "Brooke",
+      "positionType": "Back",
+      "position": "Fly Half",
+      "alternatePosition": "Inside Center",
+      "seniority": "Junior"
+    },
+    {
+      "name": "Brynne",
+      "positionType": "Back",
+      "position": "Wing",
+      "alternatePosition": "Full Back",
+      "seniority": "Sophmore"
+    },
+    {
+      "name": "Deets",
+      "positionType": "Back",
+      "position": "Outside Center",
+      "alternatePosition": "Full Back",
+      "seniority": "Junior"
+    },
+    {
+      "name": "Maria",
+      "positionType": "Back",
+      "position": "Wing",
+      "alternatePosition": "Outside Center",
+      "seniority": "Freshman"
+    },
+    {
+      "name": "Meike",
+      "positionType": "Back",
+      "position": "Inside Center",
+      "alternatePosition": "Fly Half",
+      "seniority": "Sophmore"
+    },
+    {
+      "name": "JB",
+      "positionType": "Back",
+      "position": "Wing",
+      "alternatePosition": "Full Back",
+      "seniority": "Senior"
+    },
+    {
+      "name": "Michaela",
+      "positionType": "Back",
+      "position": "Wing",
+      "alternatePosition": "",
+      "seniority": "Freshman"
+    },
+    {
+      "name": "Sammy",
+      "positionType": "Back",
+      "position": "Wing",
+      "alternatePosition": "Fly Half",
+      "seniority": "Sophmore"
+    },
+  ]
+}
