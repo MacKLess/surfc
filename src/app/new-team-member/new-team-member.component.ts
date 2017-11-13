@@ -17,7 +17,7 @@ export class NewTeamMemberComponent implements OnInit {
   }
 
   addMember(name: string, positionType: string, position: string, alternatePosition: string, seniority: string){
-    var newMember: (name, positionType, position, alternatePosition, seniority);
+    var newMember: Member = new Member(name, positionType, position, alternatePosition, seniority);
     this.teamService.addMember(newMember);
   }
 
