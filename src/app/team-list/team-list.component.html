@@ -1,9 +1,8 @@
 <h2>Team Roster</h2>
 
-<!-- <div *ngFor="let member of members | async" (click)="goToDetailPage(member)" class="panel panel-default"> -->
-<div *ngFor="let member of members | async" class="panel panel-default">
+<div *ngFor="let member of members | async" (click)="goToDetail(member)" class="panel panel-default">
   <div class="panel-body">
-    <h3><em>{{member.name}}</em></h3>
-    <p>{{member.position}}</p>
+    <h3 (click)="goToDetail(member)"><em>{{member.name}}</em></h3>
+    <p>{{member.positionType}}</p>
   </div>
 </div>

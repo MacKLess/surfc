@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { TeamListComponent } from './team-list/team-list.component';
 import { NewTeamMemberComponent } from './new-team-member/new-team-member.component';
+import { MemberDetailComponent } from './member-detail/member-detail.component';
 
 
 export const firebaseConfig = {
@@ -25,7 +26,8 @@ export const firebaseConfig = {
     AppComponent,
     TeamListComponent,
     AboutComponent,
-    NewTeamMemberComponent
+    NewTeamMemberComponent,
+    MemberDetailComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,9 @@
+<div>
+  <h3>Player Name:  {{(memberToDisplay | async).name}}</h3>
+  <h4>Player Position:  {{(memberToDisplay | async).position}}</h4>
+  <hr>
+  <h4>Additional Details:</h4>
+  <p>Forward/Back:  {{(memberToDisplay | async).positionType}}</p>
+  <p>Alternate Position:  {{(memberToDisplay | async).alternatePosition}}</p>
+  <p>Academic Standing:  {{(memberToDisplay | async).seniority}}</p>
+</div>

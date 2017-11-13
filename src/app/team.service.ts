@@ -19,4 +19,8 @@ export class TeamService {
     this.members.push(member);
   }
 
+  getMemberById(id: string){
+    return this.database.object('members/' + id);
+  }
+
 }
