@@ -1,5 +1,5 @@
 {
-  "team-members": [
+  "members": [
     {
       "name": "Annette",
       "positionType": "Forward",
@@ -146,6 +146,6 @@
       "position": "Wing",
       "alternatePosition": "Fly Half",
       "seniority": "Sophmore"
-    },
+    }
   ]
 }
