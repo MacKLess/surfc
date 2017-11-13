@@ -19,4 +19,10 @@ export class EditTeamComponent implements OnInit {
   beginUpdatingMember(memberToUpdate){
     this.teamService.updateMember(memberToUpdate);
   }
+
+  beginDeletingMember(memberToDelete){
+    if(confirm("Are you sure you want to remove this player from the team roster?")){
+      this.teamService.deleteMember(memberToDelete);
+    }
+  }
 }

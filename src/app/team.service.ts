@@ -32,4 +32,8 @@ export class TeamService {
                                   seniority: localUpdatedMember.seniority});
   }
 
+  deleteMember(localMemberToDelete){
+    let memberEntryInFirebase = this.getMemberById(localMemberToDelete.$key);
+    memberEntryInFirebase.remove();
+  }
 }
