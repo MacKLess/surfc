@@ -1,3 +1,67 @@
-<p>
-  new-team-member works!
-</p>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3>Add New Member to Team</h3>
+
+    <div class="panel-body">
+
+      <div>
+        <label>Name:</label>
+        <input #newName class="form-control">
+      </div>
+
+      <div>
+        <label>Forward or Back?</label>
+        <select #newPositionType class="form-control" name="newPositionType">
+          <option value="Forward">Forward</option>
+          <option value="Back">Back</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Position:</label>
+        <select #newPosition class="form-control" name="newPosition">
+          <option value="Prop">Prop</option>
+          <option value="Hooker">Hooker</option>
+          <option value="Lock">Lock</option>
+          <option value="Flanker">Flanker</option>
+          <option value="8Man">8Man</option>
+          <option value="Scrum">Scrum Half</option>
+          <option value="Fly">Fly Half</option>
+          <option value="Inside">Inside Center</option>
+          <option value="Outside">Outside Center</option>
+          <option value="Wing">Wing</option>
+          <option value="Full">Full Back</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Alternate Position:</label>
+        <select #newAlternatePosition class="form-control">
+          <option value="Prop">Prop</option>
+          <option value="Hooker">Hooker</option>
+          <option value="Lock">Lock</option>
+          <option value="Flanker">Flanker</option>
+          <option value="8Man">8Man</option>
+          <option value="Scrum">Scrum Half</option>
+          <option value="Fly">Fly Half</option>
+          <option value="Inside">Inside Center</option>
+          <option value="Outside">Outside Center</option>
+          <option value="Wing">Wing</option>
+          <option value="Full">Full Back</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Seniority:</label>
+        <select #newSeniority class="form-control">
+          <option value="freshman">Freshman</option>
+          <option value="sophomre">Sophmore</option>
+          <option value="junior">Junior</option>
+          <option value="Senior">Senior</option>
+        </select>
+      </div>
+      <button (click)="addMember(newName.value, newPositionType.value, newPosition.value, newAlternatePosition.value, newSeniority.value); newName.value=''; newPositionType.value=''; newPosition.value=''; newAlternatePosition.value=''; newSeniority.value=''">Add Team Member</button>
+    </div>
+
+  </div>
+</div>
