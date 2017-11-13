@@ -13,6 +13,7 @@ import { TeamService } from '../team.service';
 })
 export class TeamListComponent implements OnInit {
   members: FirebaseListObservable<any[]>;
+  currentRoute: string = this.router.url;
 
   constructor(
     private teamService: TeamService,

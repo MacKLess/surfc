@@ -23,4 +23,13 @@ export class TeamService {
     return this.database.object('members/' + id);
   }
 
+  updateMember(localUpdatedMember){
+    let memberEntryInFirebase = this.getMemberById(localUpdatedMember.$key);
+    memberEntryInFirebase.update({name: localUpdatedMember.name,
+                                  position: localUpdatedMember.position,
+                                  positionType: localUpdatedMember.positionType,
+                                  alternatePosition: localUpdatedMember.alternatePosition,
+                                  seniority: localUpdatedMember.seniority});
+  }
+
 }

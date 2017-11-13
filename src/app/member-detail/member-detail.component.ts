@@ -25,6 +25,7 @@ export class MemberDetailComponent implements OnInit {
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
       this.memberId = parseInt(urlParameters['id']);
+      console.log(this.router.url);
     });
     this.memberToDisplay = this.teamService.getMemberById(this.memberId);
   }

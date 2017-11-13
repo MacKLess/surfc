@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { TeamListComponent } from './team-list/team-list.component';
 import { NewTeamMemberComponent } from './new-team-member/new-team-member.component';
 import { MemberDetailComponent } from './member-detail/member-detail.component';
+import { EditTeamComponent } from './edit-team/edit-team.component';
 
 
 export const firebaseConfig = {
@@ -27,7 +28,8 @@ export const firebaseConfig = {
     TeamListComponent,
     AboutComponent,
     NewTeamMemberComponent,
-    MemberDetailComponent
+    MemberDetailComponent,
+    EditTeamComponent
   ],
   imports: [
     BrowserModule,

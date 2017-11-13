@@ -20,7 +20,7 @@ const appRoutes: Routes = [
     component: NewTeamMemberComponent
   },
   {
-    path: 'members/:id',
+    path: 'member/:id',
     component: MemberDetailComponent
   }
 ];
