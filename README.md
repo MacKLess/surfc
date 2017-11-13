@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is a tracking website for the Seattle University Women's Rugby Football Club for the academic year 2014-15. This information contained is no longer current but in use for a project model._
+_This is a tracking website for the Seattle University Women's Rugby Football Club for the academic year 2011-12. This information contained is no longer current but in use for a project model._
 
 ## Setup/Installation Requirements
 
@@ -53,10 +53,6 @@ _This is a tracking website for the Seattle University Women's Rugby Football Cl
 * _Administrator can add team members to the club._
 * _Administrator can edit team members profiles to correct errors or update their profiles._
 * _Administrator can delete a team member if she leaves the team._
-* __
-* __
-* __
-
 
 ## Support and contact details
 
